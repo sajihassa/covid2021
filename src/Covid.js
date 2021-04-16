@@ -15,7 +15,7 @@ class Covid extends React.Component {
         {/* <div>{data.NewConfirmed}</div>
         <div>{data.Recovered}</div> */}
         <Container>
-          <Card>
+   
             <CardTitle tag="h2">
               สถานการณ์ผู้ติดเชื้อ Covid-19 ในประเทศไทย
             </CardTitle>
@@ -108,7 +108,7 @@ class Covid extends React.Component {
                 </Card>
               </Col>
             </Row>
-          </Card>
+        
         </Container>
       </div>
     );
